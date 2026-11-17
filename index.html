@@ -16,13 +16,15 @@ Select ONE Additional Feature to Add
 <!DOCTYPE html>
 <html>
 <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
 <head>
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
   <style>
 
    img{
-    border:2px solid rgb(42, 69, 143);
+    border:3px solid rgb(42, 103, 143);
    }
   #friends 
      tr:hover {background-color: rgb(192, 168, 236);}
@@ -33,11 +35,20 @@ Select ONE Additional Feature to Add
   #family
     tr:hover {background-color:rgb(85, 49, 102);}
 
-  .ohyearight {
-    font-style: rgb(70, 70, 199);
+  .boom{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
   }
    body{
-    background-color:rgb(193, 215, 248);
+    background-image:url("https://i.pinimg.com/originals/5e/d5/d1/5ed5d1f39187ba5f296c6c621dac31bf.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    Background-blend-mode: overlay;
+    background-color:rgba(147, 150, 153, 0.829)/*white with 30% opacity*/; 
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-size: 15px solid;
    }
    
    th,table,td{
@@ -46,12 +57,17 @@ Select ONE Additional Feature to Add
     padding: 5px;
    }
 
-   h3, h1{
+   h4, h3, h1{
      font-family: "Limelight", sans-serif;
      font-weight: 400;
      font-style:rgb(105, 105, 199);
    }
+
+   li{
+    font-size: 1.1em;
+   }
   </style>
+
 </head>
 <body>
 
@@ -62,15 +78,15 @@ Select ONE Additional Feature to Add
       src="https://wiasn9mussmlhx0w.public.blob.vercel-storage.com/68859b2670a0f58c8015982d_Crying-Man-Meme-1.jpg"
       width="300">
 
-    <p class="ohyearight">Have you ever gotten insulted and not been able to provide a comeback? Well dont worry because you problems will be fixed right now. Here are some badass comebacks that assert dominace and show people that your the alpha.</p>
+    <p>Have you ever gotten insulted and not been able to provide a comeback? Well dont worry because you problems will be fixed right now. Here are some badass comebacks that assert dominace and show people that your the alpha.</p>
   
   <h3>For your friends</h3>
 
   <table id="friends">
     <thead>
       <tr>
-        <th>The insult 😭 </th>
-        <th>The comeback 😎 </th>
+        <th class="boom" >The insult 😭 </th>
+        <th class="boom">The comeback 😎 </th>
       </tr>
     </thead>
     <tbody>
@@ -100,8 +116,8 @@ Select ONE Additional Feature to Add
   <table id="teachers">
     <thead>
       <tr>
-        <th>The insult 😭 </th>
-        <th>The comeback 😎 </th>
+        <th class="boom">The insult 😭 </th>
+        <th class="boom">The comeback 😎 </th>
       </tr>
     </thead>
     <tbody>
@@ -131,8 +147,8 @@ Select ONE Additional Feature to Add
   <table id="family">
     <thead>
       <tr>
-        <th>The insult 😭 </th>
-        <th>The comeback 😎 </th>
+        <th class="boom">The insult 😭 </th>
+        <th class="boom">The comeback 😎 </th>
       </tr>
     </thead>
     <tbody>
@@ -159,15 +175,16 @@ Select ONE Additional Feature to Add
  
   <br><br>
   
-  <p><strong>Bonus combacks:</strong></p>
+  <h4><strong>Bonus comebacks:</strong></h4>
 
   <ul>
-    <li>You stink</li>
-    <li>My mom says I'm a star</li>
-    <li>I don't shut up I grown up and when I see you I throw up (mic drop)</li>
+    <li>You stink!</li>
+    <li>My mom says I'm a star.</li>
+    <li>I don't shut up I grown up and when I see you I throw up (mic drop).</li>
     <li>Do you come up with that one yourself?</li>
     <li>You look like you shower with clothes on.</li>
   </ul>
+  <br>
 
 </body>
 </html>
